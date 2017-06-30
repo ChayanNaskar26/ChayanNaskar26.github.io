@@ -57,4 +57,17 @@ h1 {
     text-decoration: none;
     color: #F5F5F5; }
 
+@media(max-width: 960px) {
+  .code-box {
+    background: none;
+    height: 0px; }
+
+  .terminal {
+    background: none;
+    height: 0px; }
+
+  .welcome {
+    background: none;
+    height: 0px; } }
+
 /*# sourceMappingURL=styles.css.map */
