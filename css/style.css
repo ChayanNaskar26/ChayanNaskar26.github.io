@@ -1,78 +1,107 @@
-body {
-  font-family: "Lucida Grande, sans-serif"; }
+@font-face{
+    font-family:"Budhayanti";
+    src: url("fonts/Budhayanti.ttf");
+}
 
-.navbar {
-  letter-spacing: 4px;
-  margin-bottom: 0;
-  background-color: #607D8B;
-  font-size: 12px !important;
-  z-index: 9999; }
+@font-face{
+    font-family:"Aspergit";
+    src: url("fonts/Aspergit.otf");
+}
+.navbar-brand{
+    font-weight: 500;
+    color: rgb(70, 69, 69)
+}
+.name-plate {
+    text-align: center;
+}
 
-.navbar .navbar-brand {
-  color: #ECEFF1; }
+.name-plate h1 {
+    font-family:"Aspergit"; 
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: normal;
+    color: rgb(88, 86, 86); 
+    font-style: italic
+}
 
-.navbar .navbar-toggle .icon-bar {
-  background-color: #ECEFF1; }
+.about-me{
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    min-height: 250px;
+}
 
-.contents {
-  height: 500px;
-  padding-top: 0;
-  background-image: url("../images/grey_background.jpg");
-  background-attachment: fixed;
-  overflow: hidden; }
+.about-me .links-row{
+    padding-top: 20px;
+    padding-top: 80px;
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+}
+.about-me .links-row:hover{
+    text-decoration: none;
+}
+.about-me span{
+    font-size: 2rem;
+}
 
-.description {
-  letter-spacing: 4px;
-  color: #424242;
-  margin-top: 150px;
-  text-align: center; }
-  .description p {
-    margin-top: 20px; }
+.work{
+    font-family:"Budhayanti";
+    background-color: #F5F5DC;
+    color: rgb(83, 83, 83);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
 
-.picture {
-  margin-top: 100px;
-  position: top center;
-  cursor: pointer; }
-  .picture img {
-    height: 300px;
-    width: 300px; }
-  .picture:hover img {
-    transform: scale(1.1); }
+.work .heading:hover{
+    text-decoration: underline;
+}
 
-.bkg {
-  letter-spacing: 4px;
-  color: #FFF3E0;
-  text-align: center;
-  background-color: #FF5722;
-  padding-bottom: 60px; }
+.projects{
+    margin-top: 20px;
+    padding-top: 20px;
+}
 
-.service {
-  padding-top: 20px;
-  color: #DD2C00; }
-  .service .web {
-    float: left; }
-  .service .mob {
-    float: right; }
-  .service .container {
-    background-color: #FF8A65;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 40px 0; }
-  .service .container:hover {
-    cursor: pointer;
-    background-color: #F8BBD0;
-    transform: scale(1.1); }
+.main-bg-cover {
+    height: 400px;
+    background-image: url("../images/grey_background.jpg");
+    background-attachment: fixed;
+    overflow: hidden;
+}
 
-.links-row {
-  letter-spacing: 4px;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  text-align: center;
-  color: #9E9E9E; }
-  .links-row a:hover {
-    transform: scale(1.1); }
+.head-direct{
+    margin-top: 20px; 
+    text-align: center;
+    z-index: 99
+     
+}
 
-.panel {
-  background-color: #9E9E9E; }
+.head-direct a{
+    padding: 15px; 
+    color: white;
+    background-color:#D8BFD8;
+    font-weight: 700;
+}
 
-/*# sourceMappingURL=style.css.map */
+.head-direct a:hover{
+    color: white;
+    background-color:#DDA0DD;
+    font-weight: bold;
+}
+
+.foot{
+    height: 250px;
+    background-image: url("../images/grey_background.jpg");
+}
+
+.contact{
+    padding-top: 60px;
+}
+
+.position{
+    padding-top: 50px;
+    color: rgb(61, 60, 60); 
+    font-weight: bold;
+    text-decoration: underline;
+}
