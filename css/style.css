@@ -38,7 +38,7 @@
     text-decoration: none;
     color: rgb(83, 83, 83);
 }
-.about-me .links-row:hover{
+.links-row:hover{
     text-decoration: none;
 }
 .about-me span{
@@ -52,10 +52,6 @@
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 80px;
-}
-
-.work .heading:hover{
-    text-decoration: underline;
 }
 
 .projects{
