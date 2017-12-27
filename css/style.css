@@ -95,9 +95,14 @@
     padding-top: 60px;
 }
 
+.social{
+    padding-top: 60px;
+}
+
+
 .position{
     padding-top: 50px;
     color: rgb(61, 60, 60); 
     font-weight: bold;
-    text-decoration: underline;
+    
 }
