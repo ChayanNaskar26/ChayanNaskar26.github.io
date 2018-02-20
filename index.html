@@ -1,69 +1,92 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        
-        <title>Chayan Naskar</title>
-    </head>
-    <body>
-        <nav id="top" class="navbar" style="margin-bottom:0" href="#">
-            <a class="nav navbar-brand">CHAYAN NASKAR</a>
-        </nav>
-        <div class="main-bg-cover container-fluid">
-            <div class="name-plate">
-                <h1>CHAYAN NASKAR</h1>
-                <div class="profile-pic pull-right img-circle">
-                </div> 
-            </div> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <title>Chayan Naskar</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="stylesheet" href="./stylesheet/font-awesome.min.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="navbar" id="top">
+        <div class="logo">
+            <h2>CHAYAN NASKAR</h2>
         </div>
-        <div class="about-me container">
-            <span>A Computer Science and Engineering Graduate</span><br>
-            <p>looking for challenging position. I am good with Javascript and Mobile app development.</p>
-            <br>
-            <div class="row links-row">
-                <a href="https://drive.google.com/open?id=1l8kmAAJ-rRBITSNpjBgRsqAQv0aCb_L0" class="col-lg-4 col-md-4 col-sm-4"><h1><i class="fa fa-file-word-o fa-lg" aria-hidden="true"></i> Resume</h1></a>
-                <a href="https://github.com/chayannaskar26/" class="col-lg-4 col-md-4 col-sm-4"><h1><i class="fa fa-github-square fa-lg" aria-hidden="true"></i> Github</h1></a>
-                <a href="https://www.linkedin.com/in/chayan-naskar-328919a4/" class="col-lg-4 col-md-4 col-sm-4"><h1><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> LinkedIn</h1></a>
-            </div>
+        <div class="nav-links large-scr">
+            <a href="#about">ABOUT ME</a>
+            <a href="#skill">SKILLS</a>
+            <!-- <a href="#">BLOG</a> -->
         </div>
-        <div class="work container-fluid">
-            <h2 class="text-center heading">Work Experience</h2>
-            <div class="work-cont container">
-                <h4 class="position">Software Developer Intern</h4>
-                <h5 style="color: rgb(94, 90, 90)">Logic Square Technology, Kolkata, India</h5>
-                <h6>1st Sept, 2017 to 6th Nov, 2017</h6>
-                <p>Worked as Mobile App Developer working on Ionic and Cordova Projects.</p><br>
-                <p style="font-size:1.5rem; font-weight:bold">Technologies Used: </p> <p style="font-size:1.3rem;"></p> HTML, Javascript, CSS, Jquery, AngularJs, Bootstrap, Ionic Framework, Apache Cordova</p>
-                <p style="font-size:1.5rem; font-weight:bold">Projects: </p> <p style="font-size:1.3rem;"></p> Step Up for India, Casa De Amparo</p>
-            </div>
+        <div class="nav-links small-scr">
+            <a id="menu" ><i class="fa fa-bars fa-2x"></i></a>
         </div>
-        <!-- <div class="projects">
-            <h2 class="text-center" style="color: rgb(70, 69, 69)">Projects</h2>
-        </div> -->
-
-
-        <footer>
-            <div class="head-direct"> <a class="img-circle text-center" href="#top"><i class="fa fa-angle-up fa-2x"></i></a></div>
-            <div class="container-fluid foot">
-            <div class="contact container col-lg-6">
-                <h4>Contact Me -</h4>
-                <p><span><i class="fa fa-envelope-o"></i></span> chayannaskar@live.com</p>
-                <p><span><i class="fa fa-phone"></i></span> +91 8584 038 798</p>
-            </div>
-            <div class="social container col-lg-6">
-                <h4>Social</h4>
-                <a class="social-links fb" href="https://www.facebook.com/chayan.cyborg.unavailable"><span><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></span></a>
-                &nbsp&nbsp&nbsp&nbsp<a class="social-links insta" href="https://www.instagram.com/chayandp/"><span><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></span></a>
-                &nbsp&nbsp&nbsp&nbsp<a class="social-links twitter" href="https://twitter.com/IMChayanNaskar"><span><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></span></a>
-            </div>
-            </div>
-        </footer>
-        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    </body>
-</html> 
+    </div>
+    <div class="hidden-links hidden">
+            <ul class="clink">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+                <!-- <li><a href="#">BLOG</a></li> -->
+                <li><a href="https://www.linkedin.com/in/chayan-naskar-328919a4/">LINKED IN</a></li>
+                <li><a href="https://github.com/chayannaskar26/">GITHUB</a></li>
+            </ul>
+    </div>
+    <div class="content">
+            <div class="cover">
+                    <div class="info">
+                        <h1>CHAYAN NASKAR</h1>
+                        <h3>B.Tech in Computer Science and Engineering</h3>
+                    </div>
+                    <div class="pic"></div>
+                </div>
+                <div class="seperator"></div>
+                <div class="about" id="about">
+                    <div class="text-about">
+                            <h2>About Me</h2>
+                            <h3>I am a Computer Science and Engineering Grad<br>
+                                looking for challenging positions to use my skills<br>
+                                for personal and organisational development.
+                            </h3>
+                    </div>
+                </div>
+                <div class="skill" id="skill">
+                    <div class="skill-list">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>R</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>Angular</li>
+                            <li>HTML5 & CSS</li>
+                        </ul>
+                    </div>
+                    <div class="experience">
+                        <h2>Experience</h2>
+                        <h3>Software Developer Intern</h3>
+                        <h5>Logic-Square Technologies</h5>
+                        <ul>
+                            <li>Worked on Step Up for India and Casa De Amparo</li>
+                            <li>Testing, bug fixing and implementing features</li>
+                            <li>Hands on experience with HTML, Javascript, JQuery, Bootstrap, AngularJs</li>
+                        </ul>
+                    </div>
+                </div>
+                <footer>
+                    <div class="links">
+                        <a href="https://drive.google.com/file/d/1ZfE7k4cgMYKzNuzPss62N1ATWh2Ksc_f/view?usp=sharing">Resume</a>
+                        <a href="https://www.linkedin.com/in/chayan-naskar-328919a4/">LinkedIn</a>
+                        <a href="https://github.com/chayannaskar26/">Github</a>
+                        <a href="mailto:chayannaskar@live.com">Mail Me</a>
+                    </div>
+                    <div class="copy">
+                        &copy; CHAYAN NASKAR ( Design and Code )
+                    </div>
+                </footer>
+    </div>
+</body>
+</html>
