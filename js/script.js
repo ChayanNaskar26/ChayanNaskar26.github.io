@@ -12,10 +12,12 @@ $(document).ready(function(){
     $('#menu').click(function(){
         //console.log('menu click ')
         $('.hidden-links').toggleClass('hidden');
-        $('.content').toggleClass('hidden')
+        $('.content').toggleClass('hidden');
+        $('.fa').toggleClass('hidden');
     });
     $('.clink li a').click(function(){
         $('.hidden-links').toggleClass('hidden');
-        $('.content').toggleClass('hidden')
+        $('.content').toggleClass('hidden');
+        $('.fa').toggleClass('hidden');
     });
 });
