@@ -1,3 +1,8 @@
+@font-face{
+    font-family:"Rufina";
+    src: url("../fonts/Rufina-Regular.ttf");
+}
+
 body{
     margin: 0;
 }
@@ -17,7 +22,7 @@ body{
 
 .navbar .logo{
     grid-area: logo;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Rufina";
 }
 
 .navbar .nav-links{
@@ -104,6 +109,11 @@ body{
 .about .text-about{
     grid-row: 2/3;
 }
+
+.about .text-about h3{
+    font-weight: 400;
+}
+
 .skill{
     height: 60vh;
     background: black;
