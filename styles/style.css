@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto';
+}
+
+.experience{
+    background: #F7A7A6;
+    color: #FFF;
+}
+
+.education{
+    background: #93B8A1;
+    color: #FFF;
+}
+
+.exp-list, .edu-list, .skill-list{
+    width: 55%;
+}
+
+.text-span{
+    color: #F5F5F5;
+}
+
+.skills{
+    background: #4D5E72;
+    color: #FFF;
+}
+
+.footer{
+    background: #2A363B;
+    height: 56px;
+}
