@@ -2,6 +2,15 @@
     font-family: 'Roboto';
 }
 
+.about-wrapper{
+    /* height: calc(100vh - 56px); */
+}
+
+.about-text{
+    width: 60vw;
+    border-left: 4px solid #F7A7A6; 
+}
+
 .experience{
     background: #F7A7A6;
     color: #FFF;
@@ -29,3 +38,12 @@
     background: #2A363B;
     height: 56px;
 }
+
+.social-link a{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.social-link i:hover {
+    color: #F7A7A6;
+}   
