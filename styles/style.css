@@ -2,48 +2,92 @@
     font-family: 'Roboto';
 }
 
-.about-wrapper{
-    /* height: calc(100vh - 56px); */
+body{
+    background: rgba(91,48,117,1);
+    background: -moz-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,48,117,1)), color-stop(100%, rgba(10,10,10,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
+    background: linear-gradient(135deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3075', endColorstr='#0a0a0a', GradientType=1 );
 }
 
-.about-text{
-    width: 60vw;
-    border-left: 4px solid #F7A7A6; 
+.navbar-brand a{
+    color: #fff;
+    text-decoration: none;
 }
 
-.experience{
-    background: #F7A7A6;
-    color: #FFF;
+.navbar-brand a:hover{
+    color: rgb(173, 173, 173);
+    text-decoration: none;
 }
 
-.education{
-    background: #93B8A1;
-    color: #FFF;
+.fullpage{
+    height: 100vh;
+    width: 80vw;
 }
 
-.exp-list, .edu-list, .skill-list{
-    width: 55%;
+.head-text text{
+    font-size: 6rem;
+    font-weight: 800;
 }
 
-.text-span{
-    color: #F5F5F5;
+.head-text h4{
+    color: #DD6E42;
 }
 
-.skills{
-    background: #4D5E72;
-    color: #FFF;
+.port-head{
+    float: right;
+}
+.port-head text{
+    color: #F7A7A6;
+    font-size: 4rem;
+    font-weight: 800;
 }
 
-.footer{
-    background: #2A363B;
-    height: 56px;
+.btn-cn{
+    width: 160px;
+    height: 35px;
+    color: #fff;
+    background: rgb(97, 63, 117);
+    border: none;
+    box-shadow: none;
+    border-radius: 15px;
+}
+
+.btn-cn:hover{
+    background: rgb(122, 79, 146);
+}
+
+.scroll-text{
+    margin-top: 80vh;
+    position: fixed;
+    color: white;
+    transform: rotate(-90deg);
+}
+
+.side-nav{
+    margin-top: 40vh;
+    position: fixed;
+    color: white;
+}
+
+.side-nav ul li{
+    list-style: none;
+    width: 35px;
+    height: 30px;
+    border-bottom: 4px solid white;
+}
+
+.side-nav ul .active{
+    width: 50px;
 }
 
 .social-link a{
-    text-decoration: none;
-    color: #6c757d;
+    color: #DD6E42;
 }
 
-.social-link i:hover {
-    color: #F7A7A6;
-}   
+.social-link a:hover{
+    color: #fc8455;
+}

@@ -5,103 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chayan Naskar</title>
+    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="navbar-brand">
-            <b>CN</b>
+            <a href="index.html"><b>CN</b></a> 
         </div>
     </div>
-    <div class="container p-0 about-wrapper">
-        
-        <div class="about-text p-5 ml-5 my-5">
-            <h3>Hi I am Chayan,</h3>
-            <h3>I am a Data Scientist.</h3>
-            <p class="text-secondary">
-                I am a passionate <b>Data Scientist</b> actively looking for positions 
-                to showcase my skills and learn.<br>
-                I have a <b>Post Graduate Diploma in Data Science</b> from <b>International Institute of Information Technology, Bangalore.</b><br>
-                <b>Predictive Analysis</b> and <b>Machine Learning Modelling</b> are my key skills.
-            </p>
+
+    <div class="scroll-text">
+        <p>SCROLL DOWN</p>
+    </div>
+
+    <div class="side-nav">
+        <ul>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <section data-section-name="home" class="container d-flex justify-content-between align-items-center p-5 fullpage portfolio-banner">
+        <div class="name-text head-text">
+            <text class="text-white">CHAYAN <br> NASKAR</text>
+            <h4 class="">Data Scientist & Web Developer</h4>
+        </div>
+        <div class="d-flex align-self-center port-head">
+            <text class="">PORTFOLIO</text>
+        </div>
+    </section>
+
+    <section data-section-name="about" class="container d-flex justify-content-between align-items-center p-5 fullpage about-me">
+        <div class="about-text head-text">
+            <text class="text-white">About Me</text>
+            <h4 class="">I love coding, ML modelling, <br> playing with datasets <br> and web development is my hobby.</h4>
+        </div>
+        <div class="d-flex align-self-center about-btn">
+            <button class="btn-cn" onclick="goToAbout()">More about me</button>
+        </div>
+    </section>
+    
+    <section data-section-name="blog" class="container d-flex justify-content-between align-items-center p-5 fullpage blog">
+        <div class="blog-text head-text">
+            <text class="text-white">Blog</text>
+            <h4 class="">My blog posts</h4>
+        </div>
+        <div class="d-flex align-self-center blog-btn">
+            <button class="btn-cn" onclick="goToUnderCons()">My blog</button>
+        </div>
+    </section>
+
+    <section data-section-name="contact" class="container d-flex justify-content-between align-items-center p-5 fullpage contact-me">
+        <div class="contact-text head-text">
+            <text class="text-white">Contact Me</text>
             <div class="social-link">
-                    <a href="https://github.com/chayannaskar26"><i class="fab fa-2x fa-github px-2"></i></a>
-                    <a href="https://www.linkedin.com/in/chayannaskar26/"><i class="fab fa-2x fa-linkedin px-2"></i></a>
-                    <a href="mailto:chayannaskar@live.com"><i class="far fa-2x fa-envelope px-2"></i></a>
+                <a href="https://github.com/chayannaskar26"><i class="fab fa-2x fa-github px-2"></i></a>
+                <a href="https://www.linkedin.com/in/chayannaskar26/"><i class="fab fa-2x fa-linkedin px-2"></i></a>
+                <a href="mailto:chayannaskar@live.com"><i class="far fa-2x fa-envelope px-2"></i></a>
             </div>
         </div>
-
-        <div class="d-flex justify-content-between p-5 experience">
-            <div class="exp-heading">
-                <h3>Work Experience</h3>
-            </div>
-            <div class="exp-list">
-                <div class="exp-list-1">
-                    <span class="text-span">2018 - Present</span>
-                    <h5>Cognizant Technology Solutions</h5>
-                    <h6>Programmer Analyst Trainee</h6>
-                    <span class="text-span">UI Developer</span>
-                </div>
-                <div class="exp-list-2 mt-5">
-                    <span class="text-span">2017 - 2017</span>
-                    <h5>Logic Square Technology</h5>
-                    <h6>Software Developer Intern</h6>
-                    <span class="text-span">Hybrid Mobile App Developer</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-between p-5 education">
-            <div class="edu-heading">
-                <h3>Education</h3>
-            </div>
-            <div class="edu-list">
-                <div class="edu-list-1">
-                    <span class="text-span">2018 - 2019</span>
-                    <h5>International Institute of Information Technology, Bangalore & Upgrad</h5>
-                    <h6>Post Graduate Diploma in Data Science</h6>
-                </div>
-                <div class="edu-list-2 mt-5">
-                    <span class="text-span">2014 - 2018</span>
-                    <h5>Government College of Enggineering & Ceramic Technology, Kolkata</h5>
-                    <h6>Bachelor of Technology in Computer Science & Engineering</h6>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-between p-5 skills">
-                <div class="skill-heading">
-                    <h3>Skills</h3>
-                </div>
-                <div class="skill-list">
-                    <span class="text-span">Analysis</span>
-                    <ul>
-                        <li>Exploratory Analysis</li>
-                        <li>Predictive Analysis</li>
-                        <li>Machine Learning Modelling</li>
-                        <li>R</li>
-                        <li>Python</li>
-                        <li>Tableau</li>
-                        <li>MySQL</li>
-                        <li>MS Excel</li>
-                        <li>Hive & Spark</li>
-                    </ul>
-                    <span class="text-span">Others</span>
-                    <ul>
-                        <li>Java</li>
-                        <li>HTML, CSS & BootStrap</li>
-                        <li>Javascript & JQuery</li>
-                        <li>Angular</li>
-                    </ul>
-                </div>
-            </div>
-    </div>
-
-    <div class="mt-4 p-3 footer">
-        <div class="float-right text-light copyright">&copy;Chayan Naskar, 2019</div>
-    </div>
+    </section>
+    
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery.scrollify.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
