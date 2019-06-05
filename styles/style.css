@@ -91,3 +91,7 @@ body{
 .social-link a:hover{
     color: #fc8455;
 }
+
+.date-time, .text-orange{
+    color: #DD6E42;
+}
