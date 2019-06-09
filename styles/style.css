@@ -1,8 +1,8 @@
-*{
+* {
     font-family: 'Roboto';
 }
 
-body{
+body {
     background: rgba(91,48,117,1);
     background: -moz-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,48,117,1)), color-stop(100%, rgba(10,10,10,1)));
@@ -13,40 +13,40 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3075', endColorstr='#0a0a0a', GradientType=1 );
 }
 
-.navbar-brand a{
+.navbar-brand a {
     color: #fff;
     text-decoration: none;
 }
 
-.navbar-brand a:hover{
+.navbar-brand a:hover {
     color: rgb(173, 173, 173);
     text-decoration: none;
 }
 
-.fullpage{
+.fullpage {
     height: 100vh;
     width: 80vw;
 }
 
-.head-text text{
+.head-text text {
     font-size: 6rem;
     font-weight: 800;
 }
 
-.head-text h4{
+.head-text h4 {
     color: #DD6E42;
 }
 
-.port-head{
+.port-head {
     float: right;
 }
-.port-head text{
+.port-head text {
     color: #F7A7A6;
     font-size: 4rem;
     font-weight: 800;
 }
 
-.btn-cn{
+.btn-cn {
     width: 160px;
     height: 35px;
     color: #fff;
@@ -56,42 +56,64 @@ body{
     border-radius: 15px;
 }
 
-.btn-cn:hover{
+.btn-cn:hover {
     background: rgb(122, 79, 146);
 }
 
-.scroll-text{
+.scroll-text {
     margin-top: 80vh;
     position: fixed;
     color: white;
     transform: rotate(-90deg);
 }
 
-.side-nav{
+.side-nav {
     margin-top: 40vh;
     position: fixed;
     color: white;
 }
 
-.side-nav ul li{
+.side-nav ul li {
     list-style: none;
     width: 35px;
     height: 30px;
     border-bottom: 4px solid white;
 }
 
-.side-nav ul .active{
+.side-nav ul .active {
     width: 50px;
 }
 
-.social-link a{
+.social-link a {
     color: #DD6E42;
 }
 
-.social-link a:hover{
+.social-link a:hover {
     color: #fc8455;
 }
 
-.date-time, .text-orange{
+.date-time, .text-orange {
     color: #DD6E42;
 }
+
+/* 
+text {
+    -webkit-animation-name: text; 
+    -webkit-animation-duration: 0.8s; 
+    animation-name: text;
+    animation-duration: 0.8s;
+}
+*/
+  
+  /* Safari 4.0 - 8.0 */
+/*
+  @-webkit-keyframes text {
+    0%   {margin-left: -150px; opacity: 0;}
+    100% {margin-left: 0px; opacity: 1;}
+  }
+  
+  @keyframes text {
+    0%   {margin-left: -150px; opacity: 0;}
+    100% {margin-left: 0px; opacity: 1;}
+  } 
+*/

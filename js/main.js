@@ -9,7 +9,7 @@ $.scrollify({
     before:function(index, context) {
         $('.side-nav ul .active').removeClass('active');
         $('.side-nav ul li:nth-child(' + (index + 1) + ')').addClass('active');
-    }
+    },
 });
 
 let goToAbout = () => {
