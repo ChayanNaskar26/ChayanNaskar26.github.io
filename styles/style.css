@@ -75,9 +75,14 @@ body {
 
 .side-nav ul li {
     list-style: none;
+    margin-top: 20px; 
     width: 35px;
-    height: 30px;
+    height: 5px;
     border-bottom: 4px solid white;
+}
+
+.side-nav ul li:hover {
+    cursor: pointer;
 }
 
 .side-nav ul .active {
