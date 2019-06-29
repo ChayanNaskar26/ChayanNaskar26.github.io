@@ -17,11 +17,11 @@
         </div>
     </div>
 
-    <div class="scroll-text">
+    <div class="scroll-text d-none d-sm-none d-md-none d-lg-block d-xl-block">
         <p>SCROLL DOWN</p>
     </div>
 
-    <div class="side-nav">
+    <div class="side-nav d-none d-sm-none d-md-none d-lg-block d-xl-block">
         <ul class="pl-4">
             <li onclick="navigate('#home')" class="active"></li>
             <li onclick="navigate('#about')"></li>
@@ -30,38 +30,44 @@
         </ul>
     </div>
 
-    <section data-section-name="home" class="container d-flex justify-content-between align-items-center p-5 fullpage portfolio-banner">
-        <div class="name-text head-text">
-            <text class="text-white">CHAYAN <br> NASKAR</text>
-            <h4 class="">Data Scientist & Web Developer</h4>
-        </div>
-        <div class="d-flex align-self-center port-head">
-            <text class="">PORTFOLIO</text>
+    <section data-section-name="home" class="container py-auto text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex fullpage portfolio-banner">
+        <div class="m-auto row">    
+                <div class="col col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 name-text head-text">
+                    <text class="text-white">CHAYAN <br> NASKAR</text>
+                    <h4 class="">Data Scientist & Web Developer</h4>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-self-center port-head">
+                    <text class="">PORTFOLIO</text>
+                </div>
         </div>
     </section>
 
-    <section data-section-name="about" class="container d-flex justify-content-between align-items-center p-5 fullpage about-me">
-        <div class="about-text head-text">
-            <text class="text-white">About Me</text>
-            <h4 class="">I love coding, ML modelling, <br> playing with datasets <br> and web development is my hobby.</h4>
-        </div>
-        <div class="d-flex align-self-center about-btn">
-            <button class="btn-cn" onclick="goToAbout()">More about me</button>
+    <section data-section-name="about" class="container text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex fullpage about-me">
+        <div class="m-auto row">
+            <div class="col col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 about-text head-text">
+                <text class="text-white">About Me</text>
+                <h4 class="">I love coding, ML modelling, <br> playing with datasets <br> and web development is my hobby.</h4>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-self-center about-btn">
+                <button class="mr-0 btn-cn" onclick="goToAbout()">More about me</button>
+            </div>
         </div>
     </section>
     
-    <section data-section-name="blog" class="container d-flex justify-content-between align-items-center p-5 fullpage blog">
-        <div class="blog-text head-text">
-            <text class="text-white">Blog</text>
-            <h4 class="">My blog posts</h4>
-        </div>
-        <div class="d-flex align-self-center blog-btn">
-            <button class="btn-cn" onclick="goToUnderCons()">My blog</button>
+    <section data-section-name="blog" class="container text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex fullpage blog">
+        <div class="m-auto row">    
+            <div class="col col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 blog-text head-text">
+                <text class="text-white">Blog</text>
+                <h4 class="">My blog posts</h4>
+            </div>
+            <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-self-center blog-btn">
+                <button class="btn-cn" onclick="goToUnderCons()">My blog</button>
+            </div>
         </div>
     </section>
 
-    <section data-section-name="contact" class="container d-flex justify-content-between align-items-center p-5 fullpage contact-me">
-        <div class="contact-text head-text">
+    <section data-section-name="contact" class="container text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row fullpage contact-me">
+        <div class="m-auto contact-text head-text">
             <text class="text-white">Contact Me</text>
             <div class="social-link">
                 <a href="https://github.com/chayannaskar26"><i class="fab fa-2x fa-github px-2"></i></a>

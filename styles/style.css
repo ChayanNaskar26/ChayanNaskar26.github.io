@@ -1,124 +1,99 @@
 * {
-    font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 body {
-    background: rgba(91,48,117,1);
-    background: -moz-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(91,48,117,1)), color-stop(100%, rgba(10,10,10,1)));
-    background: -webkit-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
-    background: linear-gradient(135deg, rgba(91,48,117,1) 0%, rgba(10,10,10,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3075', endColorstr='#0a0a0a', GradientType=1 );
+  background: #5b3075;
+  background: -moz-linear-gradient(-45deg, #5b3075 0%, #0a0a0a 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #5b3075), color-stop(100%, #0a0a0a));
+  background: -webkit-linear-gradient(-45deg, #5b3075 0%, #0a0a0a 100%);
+  background: -o-linear-gradient(-45deg, #5b3075 0%, #0a0a0a 100%);
+  background: -ms-linear-gradient(-45deg, #5b3075 0%, #0a0a0a 100%);
+  background: linear-gradient(135deg, #5b3075 0%, #0a0a0a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#5b3075", endColorstr="#0a0a0a", GradientType=1 );
 }
 
-.navbar-brand a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.navbar-brand a:hover {
-    color: rgb(173, 173, 173);
-    text-decoration: none;
-}
-
-.fullpage {
-    height: 100vh;
-    width: 80vw;
+.navbar-brand a, .navbar-brand a:hover, .social-link a i, .social-link a:hover i {
+  color: #fff;
+  text-decoration: none;
 }
 
 .head-text text {
-    font-size: 6rem;
-    font-weight: 800;
+  font-size: 4rem;
+  font-weight: 800;
 }
 
 .head-text h4 {
-    color: #DD6E42;
+  color: #DD6E42;
 }
 
 .port-head {
-    float: right;
-}
-.port-head text {
-    color: #F7A7A6;
-    font-size: 4rem;
-    font-weight: 800;
+  color: #F7A7A6;
+  font-size: 3.2rem;
+  font-weight: 800;
 }
 
 .btn-cn {
-    width: 160px;
-    height: 35px;
-    color: #fff;
-    background: rgb(97, 63, 117);
-    border: none;
-    box-shadow: none;
-    border-radius: 15px;
+  width: 160px;
+  height: 35px;
+  color: #fff;
+  background: #613f75;
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .btn-cn:hover {
-    background: rgb(122, 79, 146);
+  background: #7a4f92;
+}
+
+.fullpage {
+  height: 100vh;
+}
+
+.text-orange {
+  color: #DD6E42;
+}
+
+.date-time {
+  color: #DD6E42;
 }
 
 .scroll-text {
-    margin-top: 80vh;
-    position: fixed;
-    color: white;
-    transform: rotate(-90deg);
+  margin-top: 80vh;
+  position: fixed;
+  color: #fff;
+  transform: rotate(-90deg);
 }
 
 .side-nav {
-    margin-top: 40vh;
-    position: fixed;
-    color: white;
+  margin-top: 40vh;
+  position: fixed;
+  color: #fff;
 }
 
 .side-nav ul li {
-    list-style: none;
-    margin-top: 20px; 
-    width: 35px;
-    height: 5px;
-    border-bottom: 4px solid white;
+  list-style: none;
+  margin-top: 20px;
+  width: 35px;
+  height: 5px;
+  border-bottom: 4px solid #fff;
 }
 
 .side-nav ul li:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .side-nav ul .active {
-    width: 50px;
+  width: 50px;
 }
 
-.social-link a {
-    color: #DD6E42;
-}
-
-.social-link a:hover {
-    color: #fc8455;
-}
-
-.date-time, .text-orange {
-    color: #DD6E42;
-}
-
-/* 
-text {
-    -webkit-animation-name: text; 
-    -webkit-animation-duration: 0.8s; 
-    animation-name: text;
-    animation-duration: 0.8s;
-}
-*/
-  
-  /* Safari 4.0 - 8.0 */
-/*
-  @-webkit-keyframes text {
-    0%   {margin-left: -150px; opacity: 0;}
-    100% {margin-left: 0px; opacity: 1;}
+@media screen and (max-width: 426px) {
+  .skills-list ul {
+    list-style: none;
+    padding-left: 0;
   }
-  
-  @keyframes text {
-    0%   {margin-left: -150px; opacity: 0;}
-    100% {margin-left: 0px; opacity: 1;}
-  } 
-*/
+}
+
+/*# sourceMappingURL=style.css.map */

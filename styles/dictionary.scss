@@ -1,0 +1,57 @@
+$bg-color: rgba(91,48,117,1);
+$bg-btn-color: rgb(97, 63, 117);
+$bg-btn-light: rgb(122, 79, 146);
+$bg-dark: rgba(10,10,10,1);
+$text-orange: #DD6E42;
+$text-aside: #F7A7A6;
+
+
+%font {
+    font-family: 'Roboto'
+}
+
+%bg {
+    background: $bg-color;
+    background: -moz-linear-gradient(-45deg, $bg-color 0%, $bg-dark 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, $bg-color), color-stop(100%, $bg-dark));
+    background: -webkit-linear-gradient(-45deg, $bg-color 0%, $bg-dark 100%);
+    background: -o-linear-gradient(-45deg, $bg-color 0%, $bg-dark 100%);
+    background: -ms-linear-gradient(-45deg, $bg-color 0%, $bg-dark 100%);
+    background: linear-gradient(135deg, $bg-color 0%, $bg-dark 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b3075', endColorstr='#0a0a0a', GradientType=1 );
+}
+
+%no-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+%main-text {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+%sub-text {
+    color: $text-orange;
+}
+
+%aside-text {
+    color: $text-aside;
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+%custom-btn {
+    width: 160px;
+    height: 35px;
+    color: #fff;
+    background: $bg-btn-color;
+    border: none;
+    box-shadow: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+%custom-btn-hover {
+    background: $bg-btn-light;
+}

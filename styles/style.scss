@@ -1,0 +1,81 @@
+@import 'dictionary';
+
+* {
+    @extend %font;
+}
+
+body {
+    @extend %bg;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .social-link a i, .social-link a:hover i{
+    @extend %no-link;
+}
+
+.fullpage {
+    height: 100vh;
+}
+
+.head-text text {
+    @extend %main-text;
+}
+
+.head-text h4 {
+    @extend %sub-text;
+}
+
+.port-head {
+    @extend %aside-text;
+}
+
+.btn-cn {
+    @extend %custom-btn;
+}
+
+.btn-cn:hover {
+    @extend %custom-btn-hover;
+}
+
+.text-orange {
+    color: $text-orange;
+}
+
+.date-time {
+    color: $text-orange;
+}
+
+.scroll-text {
+    margin-top: 80vh;
+    position: fixed;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+
+.side-nav {
+    margin-top: 40vh;
+    position: fixed;
+    color: #fff;
+}
+
+.side-nav ul li {
+    list-style: none;
+    margin-top: 20px; 
+    width: 35px;
+    height: 5px;
+    border-bottom: 4px solid #fff;
+}
+
+.side-nav ul li:hover {
+    cursor: pointer;
+}
+
+.side-nav ul .active {
+    width: 50px;
+}
+
+@media screen and (max-width: 426px) {
+    .skills-list ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
