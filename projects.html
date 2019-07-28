@@ -1,0 +1,75 @@
+<!DOCTYPE html></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chayan Naskar</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="navbar-brand">
+            <a href="index.html"><b>CN</b></a> 
+        </div>
+    </div>
+
+    <div class="scroll-text d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <p>SCROLL DOWN</p>
+    </div>
+
+    <div class="side-nav d-none d-sm-none d-md-none d-lg-block d-xl-block">
+        <ul class="pl-4">
+            <li onclick="navigate('#pgdds')" class="active"></li>
+            <li onclick="navigate('#kaggle')"></li>
+        </ul>
+    </div>
+
+    <section data-section-name="pgdds" class="container py-auto text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex fullpage pgdds">
+        <div class="m-auto row">    
+                <div class="col col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 name-text head-text">
+                    <text class="text-white">PGDDS Projects</text>
+                    <h4 class="">All the projects and case studies completed during my<br> Post Graduate Diploma program.</h4>
+                    <h6 class="text-white">
+                        <ul>
+                            <li class="my-2">Uber Supply Demand Gap.</li>
+                            <li class="my-2">Loan Data EDA Case Study.</li>
+                            <li class="my-2">HR Analytics Case Study.</li>
+                            <li class="my-2">Handwritten Digit Recognition using SVM.</li>
+                            <li class="my-2">Retail Giant Sales Forecasting.</li>
+                            <li class="my-2">CredX Acquisition Analytics.</li>
+                        </ul>
+                    </h6>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-self-center view-file-wrap">
+                    <h4><a href="https://github.com/chayannaskar26/PGDDS_Projects" class="text-white" target="_blank">View project files</a></h4>
+                </div>
+        </div>
+    </section>
+
+    <section data-section-name="kaggle" class="container py-auto text-center text-sm-center text-md-left text-lg-left text-xl-left d-flex fullpage kaggle">
+            <div class="m-auto row">    
+                    <div class="col col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 name-text head-text">
+                        <text class="text-white">Kaggle Works</text>
+                        <h4 class="">Some Kernels used for Kaggle submissions.</h4>
+                        <h6 class="text-white">
+                                <ul>
+                                    <li class="my-2">Titanic Survival Prediction.(Score of 0.78468)</li>
+                                    <li class="my-2">Handwritten Digit Recognition using CNN trained with<br> Stratified K-Fold.(Score of 0.992)</li>
+                                </ul>
+
+                    </div>
+                    <div class="col col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center align-self-center view-file-wrap">
+                            <h4><a href="https://github.com/chayannaskar26/Kaggle_Submission" class="text-white" target="_blank">View kernel files</a></h4>
+                    </div>
+            </div>
+    </section>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/jquery.scrollify.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

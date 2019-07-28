@@ -19,6 +19,10 @@ let goToUnderCons = () => {
     window.location.replace("underconstruction.html");
 }
 
+let goToProjects = () => {
+    window.location.replace("projects.html");
+}
+
 let navigate = (id) => {
     $.scrollify.move(id);
 }

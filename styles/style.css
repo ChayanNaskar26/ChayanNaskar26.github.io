@@ -89,6 +89,10 @@ body {
   width: 50px;
 }
 
+.view-file-wrap h4 a:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 426px) {
   .skills-list ul {
     list-style: none;
