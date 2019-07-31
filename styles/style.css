@@ -93,6 +93,10 @@ body {
   text-decoration: none;
 }
 
+.globe-icon {
+  font-size: 6rem;
+}
+
 @media screen and (max-width: 426px) {
   .skills-list ul {
     list-style: none;
